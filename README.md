@@ -20,6 +20,12 @@ let (header, datas) = SwiftCSV.fileReader(fileName: "titanic", fileType: .csv)
 
 header: [String]
 datas: [[String]]
+
+header = ["name", "age"]
+datas = [
+        ["park", "20"],
+        ["kim", "30"]
+    ]
 ```
 
 ### FileType
