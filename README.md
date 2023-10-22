@@ -7,7 +7,8 @@ CSV or TXT data to Swift Array Super Easily!
 
 ### File Example
 ```
-titanic.csv
+File: titanic.csv
+
 name,age
 park,20
 kim,30
