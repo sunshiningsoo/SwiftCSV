@@ -6,7 +6,7 @@ CSV or TXT data to Swift Array Super Easily!
 ## How to Use
 
 ### File Example
-```
+```swift
 File: titanic.csv
 
 name,age
@@ -15,7 +15,7 @@ kim,30
 ```
 
 ### Usage
-```
+```swift
 let (header, datas) = SwiftCSV.fileReader(fileName: "titanic", fileType: .csv)
 
 header: [String]
@@ -29,7 +29,7 @@ datas = [
 ```
 
 ### FileType
-```
+```swift
 enum FileType {
     case csv
     case txt
